@@ -31,7 +31,7 @@ deactivate () {
     unset VIRTUAL_ENV_PROMPT
     if [ ! "${1:-}" = "nondestructive" ] ; then
     # Self destruct!
-        unset -f deactivate
+        unset -f activate
     fi
 }
 
